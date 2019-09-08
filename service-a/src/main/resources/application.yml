@@ -1,0 +1,10 @@
+server:
+ port: 9001
+
+
+spring:
+ security:
+   oauth2:
+     resourceserver:
+       jwt:
+         issuer-uri: https://tcs-karthikbashyam.okta.com/oauth2/default	
